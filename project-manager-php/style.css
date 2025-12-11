@@ -1,0 +1,60 @@
+/* ------------------------------------------
+   GLOBAL STYLES
+------------------------------------------ */
+.logo-title {
+    font-size: 2rem;          /* Bigger text */
+    font-weight: 700;         /* Bolder */
+    white-space: nowrap;
+}
+
+.typing {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 3px solid #0d6efd;  /* cursor */
+    white-space: nowrap;
+    animation: typing 3s steps(20), blink .7s infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+    50% { border-color: transparent }
+}
+body {
+    background: #eef2f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Smooth transitions everywhere */
+* {
+    transition: 0.2s ease-in-out;
+}
+
+/* ------------------------------------------
+   NAVBAR
+------------------------------------------ */
+.navbar {
+    background: #0d6efd !important;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #dfefff !important;
+}
+
+/* ------------------------------------------
+   HEADERS / TITLES
+------------------------------------------
